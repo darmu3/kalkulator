@@ -302,33 +302,19 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 17
   end
-  object Label1: TLabel
-    Left = 16
-    Height = 24
-    Top = 48
-    Width = 250
-    Alignment = taRightJustify
-    AutoSize = False
-    Font.CharSet = RUSSIAN_CHARSET
-    Font.Color = clGray
-    Font.Height = -21
-    Font.Name = 'MS Reference Sans Serif'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
-  end
   object Edit1: TEdit
     Left = 16
-    Height = 32
+    Height = 40
     Top = 8
     Width = 250
     Alignment = taRightJustify
     AutoSize = False
     Font.CharSet = RUSSIAN_CHARSET
-    Font.Height = -24
+    Font.Height = -29
     Font.Name = 'MS Reference Sans Serif'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
+    OnChange = Edit1Change
     ParentFont = False
     TabOrder = 18
   end
